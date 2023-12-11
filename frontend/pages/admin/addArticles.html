@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../style/addArticles.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h1>Ajout d'Article</h1>
+        <form action="" method="post" enctype="multipart/form-data">
+            <label for="category">Catégorie</label>
+            <select name="category" id="category">
+                <option value="">Choisir la Catégorie</option>
+                <option value="Santé">Santé</option>
+                <option value="Sport">Sport</option>
+                <option value="Actualités">Actualités</option>
+                <option value="Politique">Politique</option>
+                <option value="Education">Education</option>
+            </select>
+    
+            <label for="title">Titre Article</label>
+            <input type="text" name="title" id="title" required>
+    
+            <label for="article">Contenu de l'article</label>
+            <textarea name="" id="article" cols="40" rows="20"></textarea>
+    
+            <label for="image">Image</label>
+            <input type="file" name="image" id="image">
+    
+            <label for="author">Auteur de l'Article</label>
+            <input type="text" name="author" id="author" required>
+    
+            <input type="submit" value="Enregistrer">
+            <input type="reset" value="Annuler" id="cancel">
+        </form>
+        <script src="../../script/addArticle.js"></script>
+    </main>
+    
+</body>
+</html>

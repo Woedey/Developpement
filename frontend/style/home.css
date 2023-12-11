@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bar{
+    height: 10vh;
+    width: 100%;
+    background-color: rgba(0, 98, 128, 0.616);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 90%;
+    width: 15%;
+    background-color: rgba(189, 25, 25, 0.479);
+}
+
+menu{
+    height: 85%;
+    width: 20%;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.3rem;
+}
+menu a{
+    color: white ;
+    text-decoration: none;
+}
+
+menu button{
+    padding: 1vh;
+    width: 14vh;
+    border-radius: 1vh;
+    font-size: 1.1rem;
+}
+
+.baniere{
+    height: 25vh;
+    width: 100%;
+    background-color: rgba(255, 255, 0, 0.664);
+}
+.research{
+    height: 6vh;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.research input{
+    height: 5vh;
+    width: 30%;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    text-align: center;
+    
+
+}
+.articlesElements{
+    height: 50vh;
+    width: 100%;
+    background-color: rgba(10, 10, 10, 0.842);
+    display: flex;
+    justify-content: space-around;
+}
+.categorieBox{
+    height: 50vh;
+    width: 15%;
+    background-color: rgba(255, 255, 255, 0.897);
+    justify-content: center;
+    display: flex;
+   
+}
+.categorieBox nav{
+    height: 50%;
+    width: 80%;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+     
+}
+.categorieBox ul{
+    list-style: none;
+}
+.categorieBox a{
+    color: rgba(5, 65, 45, 0.349);
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+    
+.articlesBox{
+   min-height:  50vh;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.671);
+}
+.News{
+    height: 50vh;
+    width: 100%;
+    background-color: rgb(139, 75, 11);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+.topcard{
+    height: 85%;
+    width:50% ;
+    background-color: red;
+    
+}
+
+.Listarticles{
+    min-height: 60vh;
+    width: 100%;
+    background-color: rgb(153, 72, 153);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2vh;
+}
+.list_card{
+    height: 30vh;
+    width: 60vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.list_card_view_img{
+    height: 80%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.438);
+}
+.list_card_view_title{
+    height: 15%;
+    width: 100%;
+    background-color: rgba(19, 4, 233, 0.438);
+}
